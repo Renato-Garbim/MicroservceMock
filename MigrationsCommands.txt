@@ -1,0 +1,7 @@
+
+
+add-migration <Dev-SeuNome-NomeMigration> -project Repositorio -context <NomeContexto> -start <NomeAPI> -verbose
+update-database -project Repositorio -context <NomeContexto> -start <NomeAPI> -verbose
+
+
+

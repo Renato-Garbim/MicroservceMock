@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain.Utilities.CrossCutting\Domain.Utilities.CrossCutting.csproj" />
+    <ProjectReference Include="..\Microservice.Credentia.Domain.Entities\Microservice.Credentia.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Microservice.Credentia.DTO\Microservice.Credentia.DTO.csproj" />
+    <ProjectReference Include="..\Microservice.Credentia.Repository\Microservice.Credentia.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
